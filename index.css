@@ -1,0 +1,53 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+.form
+{
+    background-color: aquamarine;
+    height : 100vh;
+}
+.form h1
+{
+    padding-top : 20px;
+    margin-bottom: 20px;
+}
+.text-center
+{
+    text-align: center;
+}
+.main
+{
+    background-color: white;
+    width : 700px;
+    margin: auto;
+    padding : 30px;
+}
+.main p 
+{
+    margin-bottom: 20px;
+}
+table
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+td
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: end;
+    width : 60%;
+}
+.text-padding 
+{
+    padding-top: 30px;
+    text-align: start;
+}
+.text-start
+{
+    text-align: start;
+}

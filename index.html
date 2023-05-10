@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="form">
+      <h1 class="text-center">Surey Form</h1>
+      <section class="main">
+        <p class="text-center">Let us know how we can improve freeCodeCamp</p>
+        <table>
+          <tr>
+            <td class="align-end"><label for="name">Name : </label></td>
+            <td>
+              <input
+                type="text"
+                name="uname"
+                placeholder="Enter Your Name "
+                required
+                id="name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="align-end"><label for="email">Email : </label></td>
+            <td>
+              <input
+                type="email"
+                name="uemail"
+                placeholder="Enter Your Email "
+                required
+                id="email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="align-end"><label for="age">Age : </label></td>
+            <td>
+              <input
+                type="number"
+                name="age"
+                id="age"
+                placeholder="Enter Your Age"
+                min="1"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="option">Which Options best describes you ? : </label>
+            </td>
+            <td style="text-align: start">
+              <select id="option">
+                <option value="student">Student</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>
+                How likely is that you would recommend <br />freeCodeCamp to a
+                friend?
+              </label>
+            </td>
+            <td class="text-padding">
+              <input type="radio" name="recommend" id="definitely" />
+              <label for="definitely">Definitely</label><br />
+              <input type="radio" name="recommend" id="maybe" />
+              <label for="maybe">Maybe</label><br />
+              <input type="radio" name="recommend" id="notSure" />
+              <label for="notSure">Not Sure</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="like">What do you like most in FCC : </label>
+            </td>
+            <td class="text-start">
+              <select id="like" name="option">
+                <option>Select an Option :</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>
+                Things that should be improved in Future <br />
+                Check all that apply :
+              </label>
+            </td>
+            <td class="text-padding">
+              <input type="checkbox" name="frontend" id="frontend" />
+              <label for="frontend">Front-end Projects</label><br />
+
+              <input type="checkbox" name="backend" id="backend" />
+              <label for="backend">Back-end Projects</label><br />
+
+              <input
+                type="checkbox"
+                name="dataVisulization"
+                id="dataVisulizationend"
+              />
+              <label for="dataVisulization">Data Visulization</label>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </section>
+  </body>
+</html>
